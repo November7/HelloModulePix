@@ -58,7 +58,7 @@ IsoString SandboxModule::Name() const
    /*
     * Replace with the actual name of this module. Must be unique.
     */
-   return "Sandbox";
+   return "HelloPix";
 }
 
 // ----------------------------------------------------------------------------
@@ -68,7 +68,7 @@ String SandboxModule::Description() const
    /*
     * Replace with a short (one-line) description of this module.
     */
-   return "PixInsight Sandbox Process Module";
+   return "PixInsight HelloPix Process Module";
 }
 
 // ----------------------------------------------------------------------------
@@ -128,7 +128,7 @@ String SandboxModule::OriginalFileName() const
    return "Sandbox-pxm.dylib";
 #endif
 #ifdef __PCL_WINDOWS
-   return "Sandbox-pxm.dll";
+   return "HelloModulePix-pxm.dll";
 #endif
 }
 

@@ -48,7 +48,7 @@ SandboxInterface::~SandboxInterface()
 
 IsoString SandboxInterface::Id() const
 {
-   return "Sandbox";
+   return "HelloPix";
 }
 
 // ----------------------------------------------------------------------------
@@ -87,7 +87,7 @@ bool SandboxInterface::Launch( const MetaProcess& P, const ProcessImplementation
    if ( GUI == nullptr )
    {
       GUI = new GUIData( *this );
-      SetWindowTitle( "Sandbox" );
+      SetWindowTitle( "HelloPix" );
       UpdateControls();
    }
 

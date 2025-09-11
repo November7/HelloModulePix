@@ -54,7 +54,7 @@ SandboxProcess::SandboxProcess()
 
 IsoString SandboxProcess::Id() const
 {
-   return "Sandbox";
+   return "HelloPix";
 }
 
 // ----------------------------------------------------------------------------
